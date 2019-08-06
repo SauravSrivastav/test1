@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  simple-java-project-master:
+    image: simple-java-project-master
+    build: .
+    ports:
+      - 3000:3000
